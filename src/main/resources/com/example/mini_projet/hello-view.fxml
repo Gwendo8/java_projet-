@@ -13,12 +13,20 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Text?>
 
+<<<<<<< HEAD
 <VBox alignment="CENTER" prefHeight="648.0" prefWidth="996.0" spacing="20.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mini_projet.PizzaController">
+=======
+<VBox alignment="CENTER" prefHeight="648.0" prefWidth="555.0" spacing="20.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mini_projet.PizzaController">
+>>>>>>> 4151ff4 (modification du 29/25)
   <padding>
     <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
   </padding>
    <children>
+<<<<<<< HEAD
       <Pane prefHeight="469.0" prefWidth="668.0" style="-fx-background-color: beige;">
+=======
+      <Pane prefHeight="463.0" prefWidth="361.0" style="-fx-background-color: beige;">
+>>>>>>> 4151ff4 (modification du 29/25)
          <children>
             <GridPane layoutX="92.0" layoutY="75.0" prefHeight="129.0" prefWidth="278.0">
               <columnConstraints>
@@ -47,8 +55,13 @@
               </columns>
             </TableView>
             <Text layoutX="155.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Liste d'ajout de pizza" wrappingWidth="151.541015625" />
+<<<<<<< HEAD
             <Button fx:id="btnajouter" layoutX="393.0" layoutY="108.0" mnemonicParsing="false" onAction="#ajouterPizza" text="Ajouter" />
             <Button fx:id="btnvider" layoutX="393.0" layoutY="152.0" mnemonicParsing="false" onAction="#supprimerToutesPizzas" prefHeight="24.0" prefWidth="65.0" text="Vider" />
+=======
+            <Button fx:id="btnajouter" layoutX="407.0" layoutY="105.0" mnemonicParsing="false" onAction="#ajouterPizza" text="Ajouter" />
+            <Button fx:id="btnvider" layoutX="407.0" layoutY="149.0" mnemonicParsing="false" onAction="#supprimerToutesPizzas" prefHeight="24.0" prefWidth="65.0" text="Vider" />
+>>>>>>> 4151ff4 (modification du 29/25)
          </children>
       </Pane>
    </children>
